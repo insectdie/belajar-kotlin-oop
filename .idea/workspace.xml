@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-kotlin-oop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Object.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Address.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Person.kt" afterDir="false" />
+    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="Belajar OOP Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Constructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/PropertiesConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/SecondaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/Address.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/Car.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -51,7 +48,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.PropertiesConstructorKt">
+    <configuration name="ConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ConstructorKt" />
+      <module name="belajar-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.ObjectKt" />
       <module name="belajar-kotlin-oop" />
@@ -59,8 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropertiesConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.PropertiesConstructorKt" />
+      <module name="belajar-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.SecondaryConstructorKt" />
+      <module name="belajar-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PropertiesConstructorKt" />
+        <item itemvalue="Kotlin.SecondaryConstructorKt" />
+        <item itemvalue="Kotlin.ConstructorKt" />
         <item itemvalue="Kotlin.ObjectKt" />
       </list>
     </recent_temporary>
@@ -74,6 +95,29 @@
       <option name="presentableId" value="Default" />
       <updated>1677596704647</updated>
     </task>
+    <task id="LOCAL-00001" summary="Belajar OOP Kotlin">
+      <created>1677597355666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677597355666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Belajar OOP Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Belajar OOP Kotlin" />
   </component>
 </project>
