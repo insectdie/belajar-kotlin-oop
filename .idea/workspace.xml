@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="Belajar OOP Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Constructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/PropertiesConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/SecondaryConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/User.kt" afterDir="false" />
+    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="lanjutan Belajar OOP Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/FunctionOverloading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/ThisKeyword.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Employee.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/Address.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/data/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/Person.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -48,16 +47,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.PropertiesConstructorKt">
-    <configuration name="ConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.ConstructorKt" />
+  <component name="RunManager" selected="Kotlin.InheritanceKt">
+    <configuration name="FunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.FunctionKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.ObjectKt" />
+    <configuration name="FunctionOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.FunctionOverloadingKt" />
+      <module name="belajar-kotlin-oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.InheritanceKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.SecondaryConstructorKt" />
+    <configuration name="ThisKeywordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ThisKeywordKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,10 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InheritanceKt" />
+        <item itemvalue="Kotlin.ThisKeywordKt" />
+        <item itemvalue="Kotlin.FunctionOverloadingKt" />
+        <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.PropertiesConstructorKt" />
-        <item itemvalue="Kotlin.SecondaryConstructorKt" />
-        <item itemvalue="Kotlin.ConstructorKt" />
-        <item itemvalue="Kotlin.ObjectKt" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677597355666</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lanjutan Belajar OOP Kotlin">
+      <created>1677601314243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677601314243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Belajar OOP Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Belajar OOP Kotlin" />
+    <MESSAGE value="lanjutan Belajar OOP Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="lanjutan Belajar OOP Kotlin" />
   </component>
 </project>
