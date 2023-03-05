@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="learn GetterSetter, Interface, VisibilityModifier">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/AnonymousClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/DataClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/EnumClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/ExtentionFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/InnerClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/SealedClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/SingletonObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/TypeAlias.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Action.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Aplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Boss.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Gender.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Operation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Student.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Utilities.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data2/Application.kt" afterDir="false" />
+    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="learn Next Kotlin OOP">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Delegation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/DestructuringDeclaration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/InlineClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/LazzyProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/ObservableProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Account.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Base.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Game.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Login.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/MinMax.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Token.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" afterDir="false" />
     </list>
@@ -63,37 +57,37 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.TypeAliasKt">
-    <configuration name="AnonymousClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.AnonymousClassKt" />
+  <component name="RunManager" selected="Kotlin.DestructuringDeclarationKt">
+    <configuration name="DelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.DelegationKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.EnumClassKt" />
+    <configuration name="DestructuringDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.DestructuringDeclarationKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.InnerClassKt" />
+    <configuration name="InlineClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.InlineClassKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.SingletonObjectKt" />
+    <configuration name="LazzyPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.LazzyPropertiesKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeAliasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.TypeAliasKt" />
+    <configuration name="ObservablePropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ObservablePropertiesKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TypeAliasKt" />
-        <item itemvalue="Kotlin.SingletonObjectKt" />
-        <item itemvalue="Kotlin.EnumClassKt" />
-        <item itemvalue="Kotlin.AnonymousClassKt" />
-        <item itemvalue="Kotlin.InnerClassKt" />
+        <item itemvalue="Kotlin.DestructuringDeclarationKt" />
+        <item itemvalue="Kotlin.ObservablePropertiesKt" />
+        <item itemvalue="Kotlin.LazzyPropertiesKt" />
+        <item itemvalue="Kotlin.DelegationKt" />
+        <item itemvalue="Kotlin.InlineClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677997840716</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="learn Next Kotlin OOP">
+      <created>1678003666318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678003666318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +187,7 @@
     <MESSAGE value="lanjutan Belajar OOP Kotlin" />
     <MESSAGE value="learn Abstract, HashCode, Equals" />
     <MESSAGE value="learn GetterSetter, Interface, VisibilityModifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn GetterSetter, Interface, VisibilityModifier" />
+    <MESSAGE value="learn Next Kotlin OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn Next Kotlin OOP" />
   </component>
 </project>
