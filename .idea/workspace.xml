@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="lanjutan Belajar OOP Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/AbstractClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Equals.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/HashCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Companny.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Location.kt" afterDir="false" />
+    <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="learn Abstract, HashCode, Equals">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/AbstractPropertiesAndFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/GetterSetter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Interace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/LateInitProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/VisibilityModifier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Cat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Interaction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Note.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Teacher.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Televesion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" afterDir="false" />
     </list>
@@ -22,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -48,37 +55,37 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.AbstractClassKt">
-    <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.AbstractClassKt" />
+  <component name="RunManager" selected="Kotlin.VisibilityModifierKt">
+    <configuration name="AbstractPropertiesAndFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.AbstractPropertiesAndFunctionKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.EqualsKt" />
+    <configuration name="GetterSetterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.GetterSetterKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashCodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.HashCodeKt" />
+    <configuration name="InteraceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.InteraceKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.ToStringKt" />
+    <configuration name="LateInitPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.LateInitPropertiesKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeCheckKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.TypeCheckKt" />
+    <configuration name="VisibilityModifierKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.VisibilityModifierKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AbstractClassKt" />
-        <item itemvalue="Kotlin.HashCodeKt" />
-        <item itemvalue="Kotlin.EqualsKt" />
-        <item itemvalue="Kotlin.ToStringKt" />
-        <item itemvalue="Kotlin.TypeCheckKt" />
+        <item itemvalue="Kotlin.VisibilityModifierKt" />
+        <item itemvalue="Kotlin.InteraceKt" />
+        <item itemvalue="Kotlin.LateInitPropertiesKt" />
+        <item itemvalue="Kotlin.GetterSetterKt" />
+        <item itemvalue="Kotlin.AbstractPropertiesAndFunctionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677861700118</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="learn Abstract, HashCode, Equals">
+      <created>1677993163610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677993163610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Belajar OOP Kotlin" />
     <MESSAGE value="lanjutan Belajar OOP Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="lanjutan Belajar OOP Kotlin" />
+    <MESSAGE value="learn Abstract, HashCode, Equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn Abstract, HashCode, Equals" />
   </component>
 </project>
