@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="learn Next Kotlin OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Delegation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/DestructuringDeclaration.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/InlineClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/LazzyProperties.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/ObservableProperties.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Account.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Base.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Game.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Login.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/MinMax.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Token.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Program/MyApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/annotations/Beta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/annotations/Fancy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/annotations/NotBlank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Annotation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Exception.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/NullSafety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/OperatorOverloading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Polimorphism.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Reflection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/ScopeFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/CreateProductRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Fruit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exception/ValidationException.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" afterDir="false" />
     </list>
@@ -31,8 +34,8 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -57,37 +60,37 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.DestructuringDeclarationKt">
-    <configuration name="DelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.DelegationKt" />
+  <component name="RunManager" selected="Kotlin.ScopeFunctionKt">
+    <configuration name="AnnotationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.AnnotationKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DestructuringDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.DestructuringDeclarationKt" />
+    <configuration name="ExceptionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ExceptionKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InlineClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.InlineClassKt" />
+    <configuration name="NullSafetyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.NullSafetyKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazzyPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.LazzyPropertiesKt" />
+    <configuration name="OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.OperatorOverloadingKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservablePropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.ObservablePropertiesKt" />
+    <configuration name="ScopeFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.ScopeFunctionKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.DestructuringDeclarationKt" />
-        <item itemvalue="Kotlin.ObservablePropertiesKt" />
-        <item itemvalue="Kotlin.LazzyPropertiesKt" />
-        <item itemvalue="Kotlin.DelegationKt" />
-        <item itemvalue="Kotlin.InlineClassKt" />
+        <item itemvalue="Kotlin.ScopeFunctionKt" />
+        <item itemvalue="Kotlin.AnnotationKt" />
+        <item itemvalue="Kotlin.ExceptionKt" />
+        <item itemvalue="Kotlin.NullSafetyKt" />
+        <item itemvalue="Kotlin.OperatorOverloadingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678003666318</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="learn Next Kotlin OOP">
+      <created>1678007480191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678007480191</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
