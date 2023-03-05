@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cb92d463-00f9-4c36-8d3d-187fe1ff1cb3" name="Changes" comment="lanjutan Belajar OOP Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/ToString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/TypeCheck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/AbstractClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/Equals.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app/HashCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Companny.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data/Location.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/belajar-kotlin-oop/META-INF/belajar-kotlin-oop.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data/User.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +48,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ToStringKt">
-    <configuration name="AnyClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.AnyClassKt" />
+  <component name="RunManager" selected="Kotlin.AbstractClassKt">
+    <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.AbstractClassKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.SuperConstructorKt" />
+    <configuration name="EqualsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.EqualsKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperKeywordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.SuperKeywordKt" />
+    <configuration name="HashCodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.HashCodeKt" />
       <module name="belajar-kotlin-oop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AbstractClassKt" />
+        <item itemvalue="Kotlin.HashCodeKt" />
+        <item itemvalue="Kotlin.EqualsKt" />
         <item itemvalue="Kotlin.ToStringKt" />
         <item itemvalue="Kotlin.TypeCheckKt" />
-        <item itemvalue="Kotlin.AnyClassKt" />
-        <item itemvalue="Kotlin.SuperConstructorKt" />
-        <item itemvalue="Kotlin.SuperKeywordKt" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677773193280</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lanjutan Belajar OOP Kotlin">
+      <created>1677861700118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677861700118</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
